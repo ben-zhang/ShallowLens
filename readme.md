@@ -6,3 +6,5 @@ Salient region detection based on the superpixel and texture
 https://ieeexplore-ieee-org.proxy.lib.uwaterloo.ca/document/8301982
 
 Correct citations coming later.
+
+## Project setup
