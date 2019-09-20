@@ -3,9 +3,11 @@ from cv2.ximgproc import createSuperpixelSLIC
 from cv2.ximgproc import SLIC as SLIC_CONST
 from skimage.segmentation import slic
 import numpy as np
+import clusterer as clust
 
 # We always need np with cv2, since images in opencv are np arrays.
 
+#  Convert image to CIELAB color space, resize image to manageable size
 def pre_process(img):
     region_size = 100 # average superpixel size
     ruler = 15

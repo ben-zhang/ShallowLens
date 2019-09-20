@@ -8,3 +8,5 @@ https://ieeexplore-ieee-org.proxy.lib.uwaterloo.ca/document/8301982
 Correct citations coming later.
 
 ## Project setup
+1. source ${path_to_venv}/bin/activate
+2. pip install -r requirements.txt
